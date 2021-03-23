@@ -1,0 +1,305 @@
+#  This adds to the Stephen Black social media, fakenews and gambling filter list:
+
+
+
+#  ADOBE
+#  Font Library
+#typekit.net
+
+
+
+#  AMAZON
+#
+msh.amazon.co.uk
+api.eu.amazonalexa.com
+
+
+
+#  APPLE
+#
+# Match found in https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+#metrics.fe.apple-dns.net
+dzc-metrics.mzstatic.com
+feedbackws.icloud.com
+metrics.icloud.com
+stats.gc.apple.com
+#
+#  iPhone crashs feedback
+iphonesubmissions.apple.com
+
+
+
+#  FACEBOOK
+#  should all be covered by other blocklists
+facebook.com
+facebook.net
+graph.facebook.com
+connect.facebook.net
+mqtt.c10r.facebook.com
+scontent-frt3-1.xx.fbcdn.net
+star-z-mini.c10r.facebook.com
+
+
+
+#  GOOGLE
+#  ** everything ** that is loaded from Google is tracked
+#  most of it is covered by other blocklists
+#
+#  will be called from LG TV
+#  necessary for www.google.com/recaptcha
+#www.google.com
+googleadapis.l.google.com
+
+
+
+#  LG SMART TV
+stats.hbbtv.smartclip.net
+scheduler.hbbtv.smartclip.net
+hbbtv-1.eurosport.com
+hbbtv-extern-fe01.sim-technik.de
+hbbtv-track.redbutton.de
+hbbtv.kabeleins.de
+hbbtv.prosieben.de
+hbbtv.qvc.de
+hbbtv.redbutton.de
+hbbtv.rtl2.de
+hbbtv.sat1.de
+hbbtv.sixx.de
+hbbtv.zdf.de
+hbbtv01p.anixe.net
+hbbtvapp.sonnenklar.tv
+cdn.hbbtv.smartclip.net
+redbutton.sim-technik.de
+redbutton-lb-prod.redbutton.de
+redbutton-adproxy-lb-prod.redbutton.de
+itv.ard.de
+start.digitaltext.rtl.de
+#
+api-tv.spotify.com
+#
+#ad.lgappstv.com   already in other global list
+#smartshare.lgtvsdp.com   already in other global list
+de.info.lgsmartad.com
+us.info.lgsmartad.com
+kr.lgtvsdp.com
+kr-lgtvsdp-com.aws-prd.net
+lgad.cjpowercast.com.edgesuite.net
+ngfts.lge.com
+us.ad.lgsmartad.com
+#ibis.lgappstv.com   already in other global list
+us.ibs.lgappstv.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
+#
+fm.nvc.araegy.nuancemobility.net
+fm.nvc.arasau.nuancemobility.net
+fm.nvc.arauae.nuancemobility.net
+fm.nvc.canhk.nuancemobility.net
+fm.nvc.chmn.nuancemobility.net
+fm.nvc.czecze.nuancemobility.net
+fm.nvc.dandan.nuancemobility.net
+fm.nvc.dede.nuancemobility.net
+fm.nvc.enau.nuancemobility.net
+fm.nvc.engb.nuancemobility.net
+fm.nvc.enus.nuancemobility.net
+fm.nvc.eses.nuancemobility.net
+fm.nvc.esus.nuancemobility.net
+fm.nvc.finfin.nuancemobility.net
+fm.nvc.frca.nuancemobility.net
+fm.nvc.frfr.nuancemobility.net
+fm.nvc.grkgrk.nuancemobility.net
+fm.nvc.heil.nuancemobility.net
+fm.nvc.indind.nuancemobility.net
+fm.nvc.itit.nuancemobility.net
+fm.nvc.jajp.nuancemobility.net
+fm.nvc.kokr.nuancemobility.net
+fm.nvc.malmal.nuancemobility.net
+fm.nvc.mntw.nuancemobility.net
+fm.nvc.nldnld.nuancemobility.net
+fm.nvc.nornor.nuancemobility.net
+fm.nvc.polpol.nuancemobility.net
+fm.nvc.porbra.nuancemobility.net
+fm.nvc.porpor.nuancemobility.net
+fm.nvc.rusrus.nuancemobility.net
+fm.nvc.sweswe.nuancemobility.net
+fm.nvc.thatha.nuancemobility.net
+fm.nvc.turtur.nuancemobility.net
+fm.nvc.ukua.nuancemobility.net
+fm.nvc.vievie.nuancemobility.net
+
+
+
+#  MICROSOFT
+#
+#  Web Proxy AutoDiscovery
+wpad.fritz.box
+#
+#
+#  ‘Flighting’ Configuration – allows for feature light-up and experimentation
+#config.edge.skype.com
+#config.teams.microsoft.com  #  necessary for OneDrive
+#tsfe.trafficshaping.dsp.mp.microsoft.com
+#
+#
+#  Office Telemetry Endpoints
+browser.pipe.aria.microsoft.com
+mobile.pipe.aria.microsoft.com
+telemetry.microsoft.com
+clouddvlive-telemetry-westus.cloudapp.net
+teamsapcdntrs.azureedge.net
+prd.col.aria.mobile.skypedata.akadns.net
+#
+#  Office Rules Telemetry download
+nexusrules.officeapps.live.com
+#
+#  Office Send a Smile Service
+sas.office.microsoft.com
+#
+#
+#  Windows Telemetry Endpoints
+#  angeblich ist 'web.vortex.data.microsoft.com' ein 'Office Add-ins Service'
+#  vortex.data.microsoft.com ist allerdings definitiv ein telemetry endpoint
+vortex.data.microsoft.com
+v10.vortex-win.data.microsoft.com
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+cortana.ai
+arc.msn.com
+#
+#
+#  Azure Traffic Manager Real User Monitoring (Tracking); Source:  https://josh.st/2018/07/12/footprint-dns/
+atmrun.net
+#
+#  part of ATMRUN
+#  Tracking; Source:  https://josh.st/2018/07/12/footprint-dns/
+footprintdns.com
+clo.footprintdns.com
+#
+#
+#  Microsoft Remote Desktop et al
+dc.applicationinsights.microsoft.com
+#
+#
+#  Microsoft Visual Studio; Source:  https://github.com/VSCodium/vscodium/blob/master/undo_telemetry.sh
+dc.services.visualstudio.com
+
+
+
+#  NVIDIA
+blogs.nvidia.com
+careers.nvidia.com
+#developer.nvidia.com
+#developer.nvidia.com.global.ogslb.com
+gridforums.nvidia.com
+images.nvidia.com
+images.nvidia.com.global.ogslb.com
+investor.nvidia.com
+# Match found in list.2.sysctl.org.domains:
+#nsomniture.nvidia.com
+ota.nvidia.com
+ota.nvidia.com.global.ogslb.com
+support.nvidia.com
+telemetry.nvidia.com
+#www.nvidia.com
+#www.nvidia.com.global.ogslb.com
+#
+gfe.nvidia.com
+download.gfe.nvidia.com
+download-dc1.gfe.nvidia.com
+events.gfe.nvidia.com
+events-dc1.gfe.nvidia.com
+services.gfe.nvidia.com
+services.gfe.nvidia.com.global.ogslb.com
+services-cdn.gfe.nvidia.com
+telemetry-dce.gfe.nvidia.com
+#
+accounts.nvgs.nvidia.com
+login.nvgs.nvidia.com
+#
+#uk.download.nvidia.com
+us.download.nvidia.com
+us.download.nvidia.com.global.ogslb.com
+#
+assets.nvidiagrid.net
+#
+nvidianews.nvidia.com
+nvidianews.iprsoftware.com
+nvidianews-nvidia-com-lb-936197626.us-east-1.elb.amazonaws.com
+aws-nvidianews-nvidia-com.iprsoftware.com
+main-nvidianews-nvidia-com.iprsoftware.com
+#
+nvidia.tt.omtrdc.net
+
+
+
+#  PHILIPS HUE
+diagnostics.meethue.com
+
+
+
+#  QNAP
+analytics.api.myqnapcloud.com
+
+
+
+#  SONOS
+# Match found in https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+#msmetrics.ws.sonos.com      # metrics that cannot be opted out
+# voice activation. feature not in use, so no need to access this endpoint
+voiceconfig.ws.sonos.com
+sca-eu.ws.sonos.com
+
+
+
+#  XIAOMI CAM
+# Match found in https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+#abtest.mistat.xiaomi.com
+adv.sec.miui.com
+data.sec.miui.com
+feedback.miui.com
+logupdate.avlyun.sec.miui.com
+mazu.sec.miui.com
+alogs.umeng.com
+www.baidu.com
+pingma.qq.com
+
+
+
+#  OTHER
+#  Spiegel Magazin
+abo.spiegel.de
+gutenberg.spiegel.de
+gutscheine.spiegel.de
+schneeundmehr.spiegel.de
+sportal.spiegel.de
+sportwetten.spiegel.de
+tippspiel.spiegel.de
+tvprogramm.spiegel.de
+wetter.spiegel.de
+#
+spiegel2.zockstar.de
+spiegel.customer.gatrixx.com
+spiegel.media
+spiegel.schneeundmehr.de
+www.spiegelgruppe.de
+www.tagesspiegel.de
+www.tagesspiegel.de.edgekey.net
+pxc.spiegel.de.c.footprint.net
+#
+#
+#  other online ad stuff
+#  (mostly found by manually following "opt-out" links on sites)
+gravityrd.com
+nielsen.com
+apester.com
+addefend.com
+bitpoll.zeit.de
+plausiblelabs.com
+#  WinSIM mobile provider web; mother company Drillisch
+tracking.drillisch.de
+v2.zopim.com
+peoplegraph.firstpartyapps.oaspapps.com
+m.qualifytring.com
+improving.duckduckgo.com
+ws.audioscrobbler.com
+diagnostics.redditmedia.com
