@@ -4,7 +4,9 @@
 
 #  ADOBE
 #  Font Library
-#typekit.net
+# Match found in https://ceadd.ca/blockyoux.txt:
+#p.typekit.net
+#use.typekit.net
 
 
 
@@ -19,9 +21,14 @@ api.eu.amazonalexa.com
 #
 # Match found in https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 #metrics.fe.apple-dns.net
-dzc-metrics.mzstatic.com
-feedbackws.icloud.com
-metrics.icloud.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#dzc-metrics.mzstatic.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#feedbackws.icloud.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#metrics.icloud.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#messaging.metrics.icloud.com
 stats.gc.apple.com
 #
 #  iPhone crashs feedback
@@ -48,7 +55,8 @@ star-z-mini.c10r.facebook.com
 #  will be called from LG TV
 #  necessary for www.google.com/recaptcha
 #www.google.com
-googleadapis.l.google.com
+# Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#googleadapis.l.google.com
 
 
 
@@ -75,18 +83,22 @@ redbutton-adproxy-lb-prod.redbutton.de
 itv.ard.de
 start.digitaltext.rtl.de
 #
-api-tv.spotify.com
+spotify.com
 #
 #ad.lgappstv.com   already in other global list
 #smartshare.lgtvsdp.com   already in other global list
-de.info.lgsmartad.com
-us.info.lgsmartad.com
+#  Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#de.info.lgsmartad.com
+#  Match found in https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#us.info.lgsmartad.com
 kr.lgtvsdp.com
 kr-lgtvsdp-com.aws-prd.net
 lgad.cjpowercast.com.edgesuite.net
 ngfts.lge.com
-us.ad.lgsmartad.com
-#ibis.lgappstv.com   already in other global list
+# https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt:
+#us.ad.lgsmartad.com
+# Match found in https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts:
+#ibis.lgappstv.com
 us.ibs.lgappstv.com
 us.lgtvsdp.com
 us.rdx2.lgtvsdp.com
@@ -173,6 +185,7 @@ atmrun.net
 #  part of ATMRUN
 #  Tracking; Source:  https://josh.st/2018/07/12/footprint-dns/
 footprintdns.com
+footprint.net
 clo.footprintdns.com
 #
 #
